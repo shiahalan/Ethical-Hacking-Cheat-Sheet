@@ -12,10 +12,10 @@ ping <target_ip>
 nmap <target_ip>
 ``` 
 ##### -=Flags=-
--sV = Service Scan
--sS = SYN Scan
--sA = ACK Scan
--sT = TCP Scan
+-sV = Service Scan,
+-sS = SYN Scan,
+-sA = ACK Scan,
+-sT = TCP Scan,
 -sU = UDP Scan (some services run on UDP connections)
 -sC = Run Default Scripts
 -Pn = Don't send ping probes
