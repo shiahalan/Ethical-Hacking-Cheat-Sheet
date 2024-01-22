@@ -7,7 +7,7 @@ A cheat sheet for ethical hacking made by Alan Shiah.
 ```
 ping <target_ip>
 ```
-#### nmap: Network mapper. Can be used to enumerate a target's ports and much more.
+#### nmap: Network mapper. Can be used to enumerate a target's ports and much more. By default, it scans the top 1000 most common ports.
 ```
 nmap <target_ip>
 ``` 
@@ -21,6 +21,7 @@ nmap <target_ip>
 -Pn = Don't send ping probes,
 -p = Port (-p- scans all ports),
 -T = Speed, 1-5 with 5 being the fastest (3 is default),
+-F = Top 100 ports,
 --source-port <port> = Send requests from this port (some firewalls block all traffic except for whitelisted ports, try port 53),
 --scripts <name/category> = Execute a specific script or scripts from a certain category
 
