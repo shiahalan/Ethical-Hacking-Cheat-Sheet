@@ -27,5 +27,11 @@ nmap <target_ip>
 --source-port <port> = Send requests from this port (some firewalls block all traffic except for whitelisted ports, try port 53),
 --scripts <name/category> = Execute a specific script or scripts from a certain category
 ### Port Enumeration
-
+#### Port 21: FTP
+FTP or File Transfer Protocol is commonly hosted on port 21. It allows the transfer of computer files following a client to server model.
+```
+ftp <target IP>
+```
+#####-=Anonymous Login=-
+You may login to ftp using an guest account without a password under the username anonymous. anonymous:NONE
 
