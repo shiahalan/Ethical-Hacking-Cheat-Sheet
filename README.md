@@ -32,6 +32,6 @@ FTP or File Transfer Protocol is commonly hosted on port 21. It allows the trans
 ```
 ftp <target IP>
 ```
-#####-=Anonymous Login=-
+##### -=Anonymous Login=-
 You may login to ftp using an guest account without a password under the username anonymous. anonymous:NONE
 
