@@ -24,5 +24,6 @@ nmap <target_ip>
 -F = Top 100 ports,
 --source-port <port> = Send requests from this port (some firewalls block all traffic except for whitelisted ports, try port 53),
 --scripts <name/category> = Execute a specific script or scripts from a certain category
+### Port Enumeration
 
 
