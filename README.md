@@ -1,5 +1,5 @@
 # Ethical Hacking Cheat Sheet
-A cheat sheet for ethical hacking.
+A cheat sheet for ethical hacking made by Alan Shiah.
 
 ## Enumeration 🌐
 ### Network Enumeration
