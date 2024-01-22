@@ -7,6 +7,8 @@ A cheat sheet for ethical hacking made by Alan Shiah.
 ```
 ping <target_ip>
 ```
+##### -=TTL=-
+ttl 64 = Linux, ttl 128 = Windows, ttl 255 = Network device
 #### nmap: Network mapper. Can be used to enumerate a target's ports and much more. By default, it scans the top 1000 most common ports.
 ```
 nmap <target_ip>
