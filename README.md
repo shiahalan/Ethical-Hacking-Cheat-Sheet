@@ -5,6 +5,14 @@ A cheat sheet for ethical hacking made by Alan Shiah.
 ![9d9bd13afce1a798d22ecfd9897730ed](https://github.com/shiahalan/Ethical-Hacking-Cheat-Sheet/assets/102575877/ce271435-83a5-492f-b7d2-394d1a33d1f1)
 ## OSINT (Open-Source Intelligence) 🔎
 
+## Linux Commands 📜
+### ls: Used to list out directories.
+```
+ls <optional, /path>
+```
+#### -=Flags=-
+-l (show more information),
+-a (list all files/directories, including hidden ones)
 
 ## Enumeration 🌐
 ### Network Enumeration
@@ -46,7 +54,7 @@ You may login to ftp using a guest account without a password under the username
 ```
 require('fs').readFileSync('</path>');
 ```
-##### Convert output to string
+##### -=Convert Output To String=-
 ```
 require('fs').readFileSync('</path>').toString();
 ```
