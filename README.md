@@ -163,13 +163,16 @@ find <filename/directory name>
 ## Windows Commands 📜
 
 ## Enumeration 🌐
+
 ### Network Enumeration
+
 #### Ping: Does an ICMP echo to target IP to checks if target is up. Also provides TTL (Time to live) info, revealing OS information.
 ```
 ping <target_ip>
 ```
 ##### -=TTL=-
 ttl 64 = Linux, ttl 128 = Windows, ttl 255 = Network device
+
 #### nmap: Network mapper. Can be used to enumerate a target's ports and much more. By default, it scans the top 1000 most common ports.
 ```
 nmap <target_ip>
@@ -187,7 +190,9 @@ nmap <target_ip>
 -F = Top 100 ports,
 --source-port <port> = Send requests from this port (some firewalls block all traffic except for whitelisted ports, try port 53),
 --scripts <name/category> = Execute a specific script or scripts from a certain category
+
 ### Port Enumeration
+
 #### Port 21: FTP
 FTP or File Transfer Protocol is commonly hosted on port 21. It allows the transfer of computer files following a client to server model.
 ```
@@ -195,6 +200,7 @@ ftp <target IP>
 ```
 ##### -=Anonymous Login=-
 You may login to ftp using a guest account without a password under the username anonymous. anonymous:NONE
+
 ##### -=Commands=-
 get = (Used to download specified file), put = (Used to upload specified file)
 ```
@@ -203,6 +209,7 @@ ftp> get <filename>
 ```
 ftp> put <filename>
 ```
+
 #### Port 22: SSH
 SSH or Secure Shell is a service that provides the ability to remotely login to a computer and securely send commands. Meaning, that this service can be used in public networks.
 ```
@@ -222,8 +229,16 @@ puttygen <keyfile> -O private-openssh -o <id_rsa/keyfile name>
 #### Port 23: Telnet
 Like SSH, Telnet is a service that provides the ability to send commands to a remote computer. However, unlike SSH, Telnet sends commands in plaintext. Therefore, Telnet should only be used in private networks.
 ```
+telnet <target IP> <optional, port>
+```
+```
 telnet -l <username> <target IP> <optional, port>
 ```
+##### -=Flags=-
+-l = User (username of the user you wish to login as)
+
+#### Port 25: SMTP (Simple Mail Transfer Protocol)
+
 
 
 ## Miscellaneous 🛠️
