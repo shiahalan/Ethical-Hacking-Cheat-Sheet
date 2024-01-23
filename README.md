@@ -195,6 +195,36 @@ ftp <target IP>
 ```
 ##### -=Anonymous Login=-
 You may login to ftp using a guest account without a password under the username anonymous. anonymous:NONE
+##### -=Commands=-
+get = (Used to download specified file), put = (Used to upload specified file)
+```
+ftp> get <filename>
+```
+```
+ftp> put <filename>
+```
+#### Port 22: SSH
+SSH or Secure Shell is a service that provides the ability to remotely login to a computer and securely send commands. Meaning, that this service can be used in public networks.
+```
+ssh <username@target IP>
+```
+##### -=Flags=-
+-i = Identity File (used to authenticate a user without a password given a private key (for example id_RSA), make sure to chmod 600 the id_rsa file (or whatever it's named) or ssh will not accept it)
+```
+ssh <username@target IP> -i <filename>
+```
+##### PuTTYgen
+To connect to an openSSH session using a PuTTYgen generated private key, you must export the PuTTYgen private key to the openSSH private key file format.
+```
+puttygen <keyfile> -O private-openssh -o <id_rsa/keyfile name>
+```
+
+#### Port 23: Telnet
+Like SSH, Telnet is a service that provides the ability to send commands to a remote computer. However, unlike SSH, Telnet sends commands in plaintext. Therefore, Telnet should only be used in private networks.
+```
+telnet -l <username> <target IP> <optional, port>
+```
+
 
 ## Miscellaneous 🛠️
 ### JavaScript and Node.JS
