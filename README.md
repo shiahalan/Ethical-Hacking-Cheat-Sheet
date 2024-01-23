@@ -6,6 +6,20 @@ A cheat sheet for ethical hacking made by Alan Shiah.
 ## OSINT (Open-Source Intelligence) 🔎
 
 ## Linux Commands 📜
+#### sudo: Run the following command as a super-user.
+```
+sudo <command>
+```
+##### -=Switch To Root=-
+```
+sudo su
+```
+
+#### su: Used to switch users.
+```
+su <username>
+```
+
 #### ls: Used to list out directories.
 ```
 ls <optional, /path>
@@ -13,6 +27,140 @@ ls <optional, /path>
 ##### -=Flags=-
 -l = Long List Formatting (show more information),
 -a = All (list all files/directories, including hidden ones)
+
+#### pwd: Used to print the working directory.
+```
+pwd
+```
+
+#### cd: Used to change directories.
+```
+cd <directory name, /path>
+```
+
+#### mkdir: Used to make a new directory.
+```
+mkdir <name>
+```
+
+#### mv: Used to either move a file/directory or rename a file.
+```
+mv <filename/directory name> </path>
+```
+```
+mv <filename> <new filename>
+```
+
+#### cp: Used to copy a file to another file/destination.
+```
+cp <filename> <destination file name>
+```
+```
+cp <filename> <directory name>
+```
+
+#### rm: Used to remove files or directories.
+```
+rm <filename>
+```
+```
+rm -r <directory name>
+```
+##### -=Flags=-
+-r = recursive (deletes a directory and all files/directories inside)
+
+#### touch: Creates a blank empty file.
+```
+touch <filename>
+```
+
+#### cat: Displays the contents of a file onto the terminal output.
+```
+cat <filename>
+```
+
+#### clear: Clears the terminal display.
+```
+clear
+```
+
+#### echo: Prints out any text following the command.
+```
+echo <text>
+```
+
+#### man: Used to access the manual for a certain command.
+```
+man <command name>
+```
+
+#### whoami: Outputs the username of the active user. Beware, as this command is usually marked as suspicious to IDS/IPS.
+```
+whoami
+```
+
+#### zip: Used to zip and compress a file.
+```
+zip <filename>
+```
+
+#### unzip: Used to unzip and extract .zip files.
+```
+unzip <filename>
+```
+
+#### grep: Used to search for a specified string.
+```
+grep <string>
+```
+```
+grep <string> <filename>
+```
+##### -=Flags=-
+-r = Recursive (looks through all directories and files starting from current directory), -f File (lists out files containing the string)
+
+#### chmod: Used to change file permissions for a specified file.
+```
+chmod <flags> <filename>
+```
+##### -=Flags=-
+-x = Not Executable, -r = Not Readable, -w = Not Writable, +x = Executable, +r Readable, +w Writable, 600 = (No one else can access the file except owner, use on RSA keys when SSH)
+
+#### wget: Used to directly download files from the internet.
+```
+wget <url>
+```
+
+#### scp: Also known as secure copy, is used to copy files securely between servers.
+```
+scp <user@host>:</path> </destination path>
+```
+```
+scp <user1@host1>:</path> <user2@host2>:</destination path>
+```
+
+#### file: Checks a file's type and lists relevant file content information.
+```
+file <filename>
+```
+
+#### nano: Opens a basic terminal based text editor that can be used to edit files.
+```
+nano <filename>
+```
+
+#### find: Outputs the location of a specified file/directory.
+```
+find <filename/directory name>
+```
+
+#### |: Also known as pipe, this command takes the output of one command and then puts it into the input of another.
+```
+<first command> | <second command>
+```
+
+
+## Windows Commands 📜
 
 ## Enumeration 🌐
 ### Network Enumeration
