@@ -11,8 +11,8 @@ A cheat sheet for ethical hacking made by Alan Shiah.
 ls <optional, /path>
 ```
 #### -=Flags=-
--l (show more information),
--a (list all files/directories, including hidden ones)
+-l = Long List Formatting (show more information),
+-a = All (list all files/directories, including hidden ones)
 
 ## Enumeration 🌐
 ### Network Enumeration
