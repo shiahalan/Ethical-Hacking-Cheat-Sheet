@@ -1,5 +1,5 @@
 # Ethical Hacking Cheat Sheet
-A cheat sheet for ethical hacking made by Alan Shiah.
+A cheat sheet for ethical hacking created by Alan Shiah.
 
 
 ![9d9bd13afce1a798d22ecfd9897730ed](https://github.com/shiahalan/Ethical-Hacking-Cheat-Sheet/assets/102575877/ce271435-83a5-492f-b7d2-394d1a33d1f1)
