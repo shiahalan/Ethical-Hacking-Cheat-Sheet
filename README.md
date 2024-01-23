@@ -1,5 +1,6 @@
 # Ethical Hacking Cheat Sheet
-![Image of hacking](https://gifdb.com/images/high/coding-animated-laptop-flow-stream-ja04010rm5o68zfk.gif)
+![coding-animated-laptop-flow-stream-ja04010rm5o68zfk](https://github.com/shiahalan/Ethical-Hacking-Cheat-Sheet/assets/102575877/0558d07b-3128-4a56-9300-6e2b9fd317b6)
+
 A cheat sheet for ethical hacking made by Alan Shiah.
 
 ## Enumeration 🌐
