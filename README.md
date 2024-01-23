@@ -117,7 +117,7 @@ grep <string>
 grep <string> <filename>
 ```
 ##### -=Flags=-
--r = Recursive (looks through all directories and files starting from current directory), -f File (lists out files containing the string)
+-r = Recursive (looks through all directories and files starting from current directory), -l Lists Files (lists out files containing the string)
 
 #### chmod: Used to change file permissions for a specified file.
 ```
