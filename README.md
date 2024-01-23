@@ -1,7 +1,7 @@
 # Ethical Hacking Cheat Sheet
 A cheat sheet for ethical hacking made by Alan Shiah.
 
-![coding-animated-laptop-flow-stream-ja04010rm5o68zfk](https://github.com/shiahalan/Ethical-Hacking-Cheat-Sheet/assets/102575877/0558d07b-3128-4a56-9300-6e2b9fd317b6)
+![9d9bd13afce1a798d22ecfd9897730ed](https://github.com/shiahalan/Ethical-Hacking-Cheat-Sheet/assets/102575877/ce271435-83a5-492f-b7d2-394d1a33d1f1)
 
 ## Enumeration 🌐
 ### Network Enumeration
