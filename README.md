@@ -35,3 +35,16 @@ ftp <target IP>
 ##### -=Anonymous Login=-
 You may login to ftp using a guest account without a password under the username anonymous. anonymous:NONE
 
+## Miscellaneous 🛠️
+### JavaScript and Node.JS
+#### Read Local Files
+```
+require('fs').readFileSync('</path>');
+```
+##### Convert output to string
+```
+require('fs').readFileSync('</path>').toString();
+```
+```
+new String(require('fs').readFileSync('</path>'));
+```
