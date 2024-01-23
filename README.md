@@ -6,11 +6,11 @@ A cheat sheet for ethical hacking made by Alan Shiah.
 ## OSINT (Open-Source Intelligence) 🔎
 
 ## Linux Commands 📜
-### ls: Used to list out directories.
+#### ls: Used to list out directories.
 ```
 ls <optional, /path>
 ```
-#### -=Flags=-
+##### -=Flags=-
 -l = Long List Formatting (show more information),
 -a = All (list all files/directories, including hidden ones)
 
