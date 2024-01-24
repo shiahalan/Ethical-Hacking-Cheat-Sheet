@@ -238,7 +238,26 @@ telnet -l <username> <target IP> <optional, port>
 -l = User (username of the user you wish to login as)
 
 #### Port 25: SMTP (Simple Mail Transfer Protocol)
-
+SMTP, or Simple Mail Transfer Protocol is an internet mail protocol used to send and retrieve electronic mail. 
+There are various ways to connect to SMTP, with telnet being one of them.
+```
+telnet <target IP> 25
+EHLO ALL
+VRFY <username>
+```
+#### Port 53: DNS
+DNS, also known as Domain Name System is a service that allows for the querying of domain names. DNS servers runs on this port, while also sending replies to clients on the same port. Therefore, the client needs to have port 53 open in order to query and receive information from a DNS server. Through port 53, queries about domain names are transmitted and received. Additionally, DNS servers use port 53 for zone transfers through TCP and more.
+```
+dig any <domain name> @<target ip>
+```
+```
+dig TXT <domain name> @<target ip>
+```
+```
+dig axfr <domain name> @<target ip>
+```
+#### -=Options=-
+any = (lists A=IPv4, AAAA=IPv6, TXT record, NS = name server, SOA = State of Authority record and zone information, etc), TXT = Text Record (A text record for various uses), axfr = Asynchronous Full Zone Transfer (lists out related hosts/subdomains/files in Master/Slave system)
 
 
 ## Miscellaneous 🛠️
