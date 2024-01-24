@@ -259,6 +259,17 @@ dig axfr <domain name> @<target ip>
 #### -=Options=-
 any = (lists A=IPv4, AAAA=IPv6, TXT record, NS = name server, SOA = State of Authority record and zone information, etc), TXT = Text Record (A text record for various uses), axfr = Asynchronous Full Zone Transfer (lists out related hosts/subdomains/files in Master/Slave system)
 
+#### Ports 80, 8080, 443: HTTP/S
+HTTP and HTTPS stand for Hypertext Transfer Protocol and Hypertext Transfer Protocol Secure. It is used to load web pages, such as HTML documents onto a browser. In other words, HTTP and HTTPS is used for loading up websites onto the internet to view through a browser client.
+
+To access a website, you can simply put the domain name or IP address into a web browser's URL field.
+```
+<domain name/IP>
+```
+```
+<domain name/IP>:<port>
+```
+
 
 ## Miscellaneous 🛠️
 ### JavaScript and Node.JS
