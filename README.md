@@ -161,6 +161,10 @@ find <filename/directory name>
 
 
 ## Windows Commands 📜
+#### powershell: This command starts up the PowerShell command line/script interpreter. Use this if you are more comfortable working with Linux/Bash-like commands rather than Command Prompt's commands. Not all Windows machines support this command.
+```
+powershell
+```
 
 ## Enumeration 🌐
 
