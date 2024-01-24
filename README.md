@@ -274,6 +274,30 @@ To access a website, you can simply put the domain name or IP address into a web
 <domain name/IP>:<port>
 ```
 
+#### Port 6379: Redis
+Redis is an open-source in-memory type database. Due to it being in-memory, it is faster than a traditional database. It uses a key-value system.
+```
+redis-cli -h <target IP>
+```
+##### -=Commands=-
+info = Information (lists information about the database such as version, number of keys, etc.), keys * = Keys All (lists all the keys in the database), get = Get (get the content for a specified key), select = Select (selects the database)
+```
+<IP of Target>:6379> info
+```
+```
+<IP of Target>:6379> keys *
+```
+```
+<IP of Target>:6379> get <key name (not number)>
+```
+```
+<IP of Target>:6379> select <database number/name>
+```
+##### -=Additional Comments=-
+If you don't have the redis-cli command, then you need to install redis-tools. This can be done as so on Linux:
+```
+sudo apt install redis-tools
+```
 
 ## Miscellaneous 🛠️
 ### JavaScript and Node.JS
