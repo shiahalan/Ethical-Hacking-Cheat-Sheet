@@ -189,7 +189,7 @@ nmap <target_ip>
 -T = Speed, 1-5 with 5 being the fastest (3 is default),
 -F = Top 100 ports,
 --source-port <port> = Send requests from this port (some firewalls block all traffic except for whitelisted ports, try port 53),
---scripts <name/category> = Execute a specific script or scripts from a certain category
+--script <name/category> = Execute a specific script or scripts from a certain category
 
 ### Port Enumeration
 
