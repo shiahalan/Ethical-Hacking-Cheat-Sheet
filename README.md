@@ -319,6 +319,7 @@ To initiate a GitHub repository, login to the website and create a new repositor
 ```
 git init
 ```
+-----
 ```
 git add <filename, . to add all>
 ```
@@ -326,6 +327,7 @@ OR
 ```
 git add .
 ```
+-----
 ```
 git commit -m "Commit message here for logs"
 ```
