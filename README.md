@@ -312,3 +312,43 @@ require('fs').readFileSync('</path>').toString();
 ```
 new String(require('fs').readFileSync('</path>'));
 ```
+
+### Git and GitHub
+#### How to Initialize and Forward Local Repository to GitHub
+To initiate a GitHub repository, login to the website and create a new repository. Then, to initialize your local repository and forward it to your GitHub repository, you can do the following:
+```
+git init
+```
+```
+git add <filename, . to add all>
+```
+OR
+```
+git add .
+```
+```
+git commit -m "Commit message here for logs"
+```
+```
+git branch -M main
+```
+```
+git remote add origin https://github.com/username/some-repository.git
+```
+```
+git push -u origin main
+```
+##### -=Options=-
+init = Initialize (initializes/creates a git repository in the current working directory as .git hidden file), add = Add (adds a specified file/directory, or using . adds every file in current directory, to the staging area where it is being prepared to commit... note that only staged files will be pushed to the updated repository on commit), commit = Commit (commits and finalizes a repository update on local repository, usually with a commit message), branch = Branch (used for various commands that relate to branches, such as switching, adding, deleting, etc.), remote = Remote (used to interact with a remote repository, usually on GitHub), push = Push (pushes the currently selected branch's local repository to some main repository, usually a GitHub online repository), status = Status (will display information regarding files in the staging area, files that have been changed and not added to the staging area, or if nothing has changed, then the directory is described as clean), log = Log (displays a chronological commit history for the repository), diff = Difference (displays the differences between various things like files, directories, branches, and more)
+```
+git log
+```
+```
+git diff <optional> <optional>
+```
+```
+git status
+```
+
+
+
