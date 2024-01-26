@@ -299,6 +299,8 @@ If you don't have the redis-cli command, then you need to install redis-tools. T
 sudo apt install redis-tools
 ```
 
+## Exploitation 💥
+
 ## Reverse Engineering 🔄
 
 WRITE STUFF HERE ABOUT OBJDUMP, STRINGS, ASSEMBLY, GHIDRA
