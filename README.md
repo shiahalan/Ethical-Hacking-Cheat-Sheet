@@ -182,7 +182,7 @@ ttl 64 = Linux, ttl 128 = Windows, ttl 255 = Network device
 nmap <target_ip>
 ```
 ```
-nmap -sV --script \vuln -p <port> <target IP>
+nmap -sV --script vuln -p <port> <target IP>
 ```
 ##### -=Flags=-
 -sV = Service Scan,
