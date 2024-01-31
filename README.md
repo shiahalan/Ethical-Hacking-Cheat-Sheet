@@ -387,6 +387,13 @@ Medium: SMB
 Slow: RDP  
 Very Slow: SSH  
 
+#### Password Mutations
+In order to become more secure, services may require certain password requirements. For example, a length of 8+ characters, a capital letter, a special character, numbers, and more. However, people tend to incline towards simplicity and often have predictable patterns for creating a new password that matches these requirements. For example, capitalizing the first letter, adding 123/year/month to the end of the password, or adding an exclamation mark to the end of the password. We can therefore create a new list of passwords to bruteforce using these mutations.
+```
+hashcat --force <password file>.list -r <mutation rule file>.rule --stdout | sort -u > mutated_password.list
+```
+One of the most commonly used rules for password mutation is best64.rule, included by default in both John and Hashcat.
+
 
 #### 
 
