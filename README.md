@@ -405,6 +405,7 @@ WRITE STUFF HERE ABOUT OBJDUMP, STRINGS, ASSEMBLY, GHIDRA
 
 ### Useful Links
 #### Default Credentials Database
+A database of running default credentials for a multitude of different services and applications.
 ##### [CLICK HERE](https://github.com/ihebski/DefaultCreds-cheat-sheet) OR https://github.com/ihebski/DefaultCreds-cheat-sheet
 
 #### CyberChef
