@@ -402,6 +402,11 @@ One of the most commonly used rules for password mutation is best64.rule, includ
 WRITE STUFF HERE ABOUT OBJDUMP, STRINGS, ASSEMBLY, GHIDRA
 
 ## Miscellaneous 🛠️
+
+### Useful Links
+#### Default Credentials Database
+##### [CLICK HERE](https://github.com/ihebski/DefaultCreds-cheat-sheet)
+
 ### JavaScript and Node.JS
 #### Read Local Files
 ```
