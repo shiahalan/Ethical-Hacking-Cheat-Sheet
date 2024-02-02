@@ -405,7 +405,7 @@ WRITE STUFF HERE ABOUT OBJDUMP, STRINGS, ASSEMBLY, GHIDRA
 
 ### Useful Links
 #### Default Credentials Database
-##### [CLICK HERE](https://github.com/ihebski/DefaultCreds-cheat-sheet)
+##### [CLICK HERE](https://github.com/ihebski/DefaultCreds-cheat-sheet) OR https://github.com/ihebski/DefaultCreds-cheat-sheet
 
 ### JavaScript and Node.JS
 #### Read Local Files
