@@ -407,6 +407,10 @@ WRITE STUFF HERE ABOUT OBJDUMP, STRINGS, ASSEMBLY, GHIDRA
 #### Default Credentials Database
 ##### [CLICK HERE](https://github.com/ihebski/DefaultCreds-cheat-sheet) OR https://github.com/ihebski/DefaultCreds-cheat-sheet
 
+#### CyberChef
+A tool for encryption, decryption, encoding, decoding, compression, data analysis, data manipulation, and more.
+##### [CLICK HERE](https://gchq.github.io/CyberChef/) OR https://gchq.github.io/CyberChef/
+
 ### JavaScript and Node.JS
 #### Read Local Files
 ```
