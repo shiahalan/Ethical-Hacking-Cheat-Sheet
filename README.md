@@ -412,6 +412,11 @@ A database of running default credentials for a multitude of different services 
 A tool for encryption, decryption, encoding, decoding, compression, data analysis, data manipulation, and more.
 ##### [CLICK HERE](https://gchq.github.io/CyberChef/) OR https://gchq.github.io/CyberChef/
 
+#### GTFOBins and LOLBAS
+A comprehensive list of binaries/commands that can be used to bypass security restrictions for a misconfigured system (for example reading/editing files, privilege escalation, etc). GTFOBins (Get the F@@@ Out Binaries) is for Unix, while LOLBAS (Living off the Land Binaries) is for Windows. 
+##### [CLICK HERE](https://gtfobins.github.io) OR https://gtfobins.github.io
+##### [CLICK HERE](https://lolbas-project.github.io) OR https://lolbas-project.github.io
+
 ### JavaScript and Node.JS
 #### Read Local Files
 ```
