@@ -399,7 +399,7 @@ One of the most commonly used rules for password mutation is best64.rule, includ
 
 ## Reverse Engineering 🔄
 
-WRITE STUFF HERE ABOUT OBJDUMP, STRINGS, ASSEMBLY, GHIDRA
+WRITE STUFF HERE ABOUT OBJDUMP, STRINGS, ASSEMBLY eax edx, GHIDRA, winedbg --gdb file b *0x??? (break point stop program) c continue.. program breakpoint stop and all address and memory preserved at that point x to print / to add more specific x/d int x/i instruction x/s strings
 
 ## Miscellaneous 🛠️
 
