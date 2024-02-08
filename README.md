@@ -423,6 +423,11 @@ A comprehensive list of binaries/commands that can be used to bypass security re
 ##### [CLICK HERE](https://gtfobins.github.io) OR https://gtfobins.github.io
 ##### [CLICK HERE](https://lolbas-project.github.io) OR https://lolbas-project.github.io
 
+#### RsaCtfTool
+A program that consists of a wide variety of different mathematical attacks used to recover an RSA private key from a given RSA public key. As the strength of an RSA key is dependent on the complexity of the used integer factorization problem, weaker RSA keys can be cracked using mathematical algorithms exploiting the weak mathematical properties of a weak RSA key.
+
+##### [CLICK HERE](https://github.com/RsaCtfTool/RsaCtfTool) OR https://github.com/RsaCtfTool/RsaCtfTool
+
 ### JavaScript and Node.JS
 #### Read Local Files
 ```
