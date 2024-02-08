@@ -405,6 +405,7 @@ WRITE STUFF HERE ABOUT OBJDUMP, STRINGS, ASSEMBLY eax edx, GHIDRA, winedbg --gdb
 Given a public key, if the public RSA is not made well you can use mathematics to crack and find the private key to decrypt files
 Wiener's attack,
 Fermat's factorization for close p and q,
+key reuse for stream cipher can be XORed for another message using same key if plaintext and cipher text known (plain xor key = cipher, cipher xor plain = key, then use key xor another cipher = plain if key is reused for both. IV is reused, then xored plain and cipher text always the same for diff messages... different IV makes different)
 
 
 ## Miscellaneous 🛠️
