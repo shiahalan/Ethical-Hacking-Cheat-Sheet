@@ -429,6 +429,7 @@ A program that consists of a wide variety of different mathematical attacks used
 
 ##### [CLICK HERE](https://github.com/RsaCtfTool/RsaCtfTool) OR https://github.com/RsaCtfTool/RsaCtfTool
 
+
 ### JavaScript and Node.JS
 #### Read Local Files
 ```
@@ -481,5 +482,7 @@ git diff <optional> <optional>
 git status
 ```
 
+
+NETCAT CAN CONNECT TO COMPUTERS
 
 
