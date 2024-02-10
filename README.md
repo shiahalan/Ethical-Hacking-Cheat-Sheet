@@ -426,11 +426,12 @@ Accessing API with missing access controls for POST, PUT and DELETE.
 
 Elevation of privilege. Acting as a user without being logged in or acting as an admin when logged in as a user.
 
-Metadata manipulation, such as replaying or tampering with a JSON Web Token (JWT) access control token, or a cookie or hidden field manipulated to elevate privileges or abusing JWT invalidation." - https://owasp.org/Top10/A01_2021-Broken_Access_Control/
+Metadata manipulation, such as replaying or tampering with a JSON Web Token (JWT) access control token, or a cookie or hidden field manipulated to elevate privileges or abusing JWT invalidation.
 
 CORS misconfiguration allows API access from unauthorized/untrusted origins.
 
-Force browsing to authenticated pages as an unauthenticated user or to privileged pages as a standard user.
+Force browsing to authenticated pages as an unauthenticated user or to privileged pages as a standard user." - https://owasp.org/Top10/A01_2021-Broken_Access_Control/
+
 #### CWE-548: Exposure of Information Through Directory Listing
 A directory listing is inappropriately exposed, yielding potentially sensitive information to attackers.
 
