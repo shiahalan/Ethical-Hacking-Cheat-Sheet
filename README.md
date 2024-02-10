@@ -401,11 +401,25 @@ One of the most commonly used rules for password mutation is best64.rule, includ
 
 WRITE STUFF HERE ABOUT OBJDUMP, STRINGS, ASSEMBLY eax edx, GHIDRA, winedbg --gdb file b *0x??? (break point stop program) c continue.. program breakpoint stop and all address and memory preserved at that point x to print / to add more specific x/d int x/i instruction x/s strings
 
-## Cryptography🔐
+## Cryptography 🔐
 Given a public key, if the public RSA is not made well you can use mathematics to crack and find the private key to decrypt files
 Wiener's attack,
 Fermat's factorization for close p and q,
 key reuse for stream cipher can be XORed for another message using same key if plaintext and cipher text known (plain xor key = cipher, cipher xor plain = key, then use key xor another cipher = plain if key is reused for both. IV is reused, then xored plain and cipher text always the same for diff messages... different IV makes different)
+
+
+## OWASP Top 10 🐝
+The OWASP Top 10 is a standard awareness document containing a broad consensus of the top ten most critical security risks on a web application.
+
+To go to the document [CLICK HERE](https://owasp.org/www-project-top-ten/) OR https://owasp.org/www-project-top-ten/.
+
+### A01:2021-Broken Access Control
+#### CWE-548: Exposure of Information Through Directory Listing
+A directory listing is inappropriately exposed, yielding potentially sensitive information to attackers.
+
+For example, accessing some website: www.fakewebsite.com/directory1/
+
+Can end up listing all files under the directory directory1 if directory listing is not disabled. Note the / at the end of the URL, make sure to include this when checking for directory listing. Requesting something like www.fakewebsite.com/directory1 will request the resource with filename directory1, while www.fakewebsite.com/directory1/ marks directory1 as a directory, leaving nothing after the / will show all contents of directory1.
 
 
 ## Miscellaneous 🛠️
