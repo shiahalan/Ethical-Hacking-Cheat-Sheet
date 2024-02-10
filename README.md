@@ -414,12 +414,29 @@ The OWASP Top 10 is a standard awareness document containing a broad consensus o
 To go to the document [CLICK HERE](https://owasp.org/www-project-top-ten/) OR https://owasp.org/www-project-top-ten/.
 
 ### A01:2021-Broken Access Control
+"Access control enforces policy such that users cannot act outside of their intended permissions. Failures typically lead to unauthorized information disclosure, modification, or destruction of all data or performing a business function outside the user's limits. Common access control vulnerabilities include:
+
+Violation of the principle of least privilege or deny by default, where access should only be granted for particular capabilities, roles, or users, but is available to anyone.
+
+Bypassing access control checks by modifying the URL (parameter tampering or force browsing), internal application state, or the HTML page, or by using an attack tool modifying API requests.
+
+Permitting viewing or editing someone else's account, by providing its unique identifier (insecure direct object references)
+
+Accessing API with missing access controls for POST, PUT and DELETE.
+
+Elevation of privilege. Acting as a user without being logged in or acting as an admin when logged in as a user.
+
+Metadata manipulation, such as replaying or tampering with a JSON Web Token (JWT) access control token, or a cookie or hidden field manipulated to elevate privileges or abusing JWT invalidation." - https://owasp.org/Top10/A01_2021-Broken_Access_Control/
+
+CORS misconfiguration allows API access from unauthorized/untrusted origins.
+
+Force browsing to authenticated pages as an unauthenticated user or to privileged pages as a standard user.
 #### CWE-548: Exposure of Information Through Directory Listing
 A directory listing is inappropriately exposed, yielding potentially sensitive information to attackers.
 
 For example, accessing some website: www.fakewebsite.com/directory1/
 
-Can end up listing all files under the directory directory1 if directory listing is not disabled. Note the / at the end of the URL, make sure to include this when checking for directory listing. Requesting something like www.fakewebsite.com/directory1 will request the resource with filename directory1, while www.fakewebsite.com/directory1/ marks directory1 as a directory, leaving nothing after the / will show all contents of directory1.
+Can end up listing all files under the directory directory1 if directory listing is not disabled. Note the / at the end of the URL, make sure to include this when checking for directory listing. Requesting something like www.fakewebsite.com/directory1 will request the resource with filename directory1, while www.fakewebsite.com/directory1/ marks directory1 as a directory, leaving nothing after the / will show all contents of the directory directory1.
 
 
 ## Miscellaneous 🛠️
