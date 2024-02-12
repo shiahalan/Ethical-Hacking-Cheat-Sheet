@@ -505,7 +505,7 @@ OLETOOLS (OLEID) CAN HELP TO ANALYZE OLE DOCUMENTS FILES... OLE documents are a 
 
 XXE injection or XEE injection (XML External entity) injection, use burp suite. convert application/xml to parse
 
-https://webhook.site used to host custom email and URL for testing.. can put in content like Template {{}}
+https://webhook.site used to host custom email and URL for testing.. can put in content like Template {{}} {{.functionname "parameter string??"}}
 
 
 Username Convention	Practical Example for Jane Jill Doe
