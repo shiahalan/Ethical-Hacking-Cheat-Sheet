@@ -515,3 +515,5 @@ firstnamelastname	janedoe
 firstname.lastname	jane.doe
 lastname.firstname	doe.jane
 nickname	doedoehacksstuff
+
+https://hashcat.net/wiki/doku.php?id=example_hashes website for -m mode for hashcat hash cracker... 1000 is for NTLM hashes (aka NT hashes) LM::NT from SAM or NTDS.dit
