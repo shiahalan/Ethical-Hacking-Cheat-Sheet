@@ -504,3 +504,5 @@ NETCAT CAN CONNECT TO COMPUTERS
 OLETOOLS (OLEID) CAN HELP TO ANALYZE OLE DOCUMENTS FILES... OLE documents are a way to compound document objects like spreadsheets in a document. For example, you have example.doc, and inside example.doc are a few excel spreadsheets. The spreadsheet inside the .doc file, is an excel object in a file... OLE FILE!! Object Linking, or having an object inside a doc file!!
 
 XXE injection or XEE injection (XML External entity) injection, use burp suite. convert application/xml to parse
+
+https://webhook.site used to host custom email and URL for testing.. can put in content like Template {{}}
