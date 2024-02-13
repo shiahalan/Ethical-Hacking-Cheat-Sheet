@@ -517,3 +517,5 @@ lastname.firstname	doe.jane
 nickname	doedoehacksstuff
 
 https://hashcat.net/wiki/doku.php?id=example_hashes website for -m mode for hashcat hash cracker... 1000 is for NTLM hashes (aka NT hashes) LM::NT from SAM or NTDS.dit
+
+www.hello.com/?url=@127.0.0.1  www.hello.com/?url=@<domain local host> use https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Request%20Forgery/README.md#bypass-using-tricks-combination
