@@ -74,7 +74,7 @@ rm -r <directory name>
 touch <filename>
 ```
 
-#### cat: Displays the contents of a file onto the terminal output.
+#### cat: Displays / Prints the contents of a file onto the terminal output.
 ```
 cat <filename>
 ```
@@ -164,6 +164,11 @@ find <filename/directory name>
 #### powershell: This command starts up the PowerShell command line/script interpreter. Use this if you are more comfortable working with Linux/Bash-like commands rather than Command Prompt's commands. Not all Windows machines support this command.
 ```
 powershell
+```
+
+#### type: Displays / Prints the contents of a file onto the terminal output.
+```
+type <filename>
 ```
 
 ## Enumeration 🌐
