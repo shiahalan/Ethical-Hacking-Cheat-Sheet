@@ -15,6 +15,11 @@ sudo <command>
 sudo su
 ```
 
+##### -=List Sudo Privileges=-
+```
+sudo -l
+```
+
 #### su: Used to switch users.
 ```
 su <username>
