@@ -455,6 +455,16 @@ A program that consists of a wide variety of different mathematical attacks used
 
 ##### [CLICK HERE](https://github.com/RsaCtfTool/RsaCtfTool) OR https://github.com/RsaCtfTool/RsaCtfTool
 
+#### CrackStation
+CrackStation uses lookup tables to crack password hashes. These tables store a mapping between the hash of a password, and the correct password for that hash.
+
+##### [CLICK HERE](https://crackstation.net) OR https://crackstation.net
+
+#### Reverse Shell Generator
+A reverse shell generator for a multitude of formats and operating systems.
+
+##### [CLICK HERE](https://www.revshells.com) OR https://www.revshells.com
+
 
 ### JavaScript and Node.JS
 #### Read Local Files
