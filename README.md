@@ -466,6 +466,13 @@ A reverse shell generator for a multitude of formats and operating systems.
 ##### [CLICK HERE](https://www.revshells.com) OR https://www.revshells.com
 
 
+#### Emkei's Mailer (Spoofing Email Website)
+An online fake mailer with attachments, encryption, etc.
+Some domains will be blocked by gmail, so try to be creative with the sending domain. Also, glitches with most browsers except for Google Chrome. Try sending spoofed emails to your own email first to test what domains work.
+
+##### [CLICK HERE](https://emkei.cz/) OR https://emkei.cz/
+
+
 ### JavaScript and Node.JS
 #### Read Local Files
 ```
