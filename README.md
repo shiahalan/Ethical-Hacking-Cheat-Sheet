@@ -473,6 +473,12 @@ Some domains will be blocked by gmail, so try to be creative with the sending do
 ##### [CLICK HERE](https://emkei.cz/) OR https://emkei.cz/
 
 
+#### Quez Stresser
+A free booter that stress tests the given IP address. In other words, a free DOS (Denial of Service/DDoS) website that you can use to stress test the integrity of a system. They claim to be 90% more effect than the average paid stress tester.
+
+##### [CLICK HERE](https://quezstresser.ru) OR https://quezstresser.ru
+
+
 ### JavaScript and Node.JS
 #### Read Local Files
 ```
