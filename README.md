@@ -1,6 +1,9 @@
 # Ethical Hacking Cheat Sheet
 A cheat sheet for ethical hacking created by Alan Shiah.
 
+###### Disclaimer: The information provided here is intended for educational and informational purposes only. It is not meant to encourage or condone any illegal activities, including hacking, unauthorized access to computer systems, or any other form of cybercrime. Users are solely responsible for their actions and should abide by all applicable laws and ethical guidelines. Any misuse of the information provided is strictly prohibited.
+
+
 
 ![9d9bd13afce1a798d22ecfd9897730ed](https://github.com/shiahalan/Ethical-Hacking-Cheat-Sheet/assets/102575877/ce271435-83a5-492f-b7d2-394d1a33d1f1)
 ## OSINT (Open-Source Intelligence) 🔎
