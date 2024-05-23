@@ -571,4 +571,4 @@ something.com/api/something/list
 
 goes somewhere
 
-Add SQL, Select FROM Where AS (rename) order by ASC DESC UNION, DISTINCT NOT is NULL, inner join left join right join (left takes all from left, if no match for right then is null. Right takes all from right side, if no match then is null. Inner throws out all other values where ON condition not met) Can reference by Table.field=Table.field
+Add SQL, Select FROM Where AS (rename) order by ASC DESC UNION, DISTINCT NOT is NULL, inner join left join right join (left takes all from left, if no match for right then is null. Right takes all from right side, if no match then is null. Inner throws out all other values where ON condition not met) Can reference by Table.field=Table.field. WHERE field NOT IN (SELECT field FROM TABLE)... GROUP BY, count(field) AS name
