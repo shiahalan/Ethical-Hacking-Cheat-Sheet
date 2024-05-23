@@ -570,3 +570,5 @@ OR
 something.com/api/something/list
 
 goes somewhere
+
+Add SQL, Select FROM Where AS (rename) order by ASC DESC UNION, DISTINCT NOT is NULL
