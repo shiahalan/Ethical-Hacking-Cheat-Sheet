@@ -576,3 +576,5 @@ Add SQL, Select FROM Where AS (rename) order by ASC DESC UNION, DISTINCT NOT is 
 
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
 ^^ Use this to delete sensitive data off of github you accidentally pushed. Follow the steps for git repo filter
+
+Request update of information on GOOGLE: https://search.google.com/search-console/remove-outdated-content?utm_source=wmx&utm_medium=deprecation-pane&utm_content=removals
